@@ -1,5 +1,12 @@
 # @backstage/backend-common
 
+## 0.6.3
+
+### Patch Changes
+
+- b42531cfe: Support configuration of file storage for SQLite databases. Every plugin has its
+  own database file at the specified path.
+
 ## 0.6.2
 
 ### Patch Changes

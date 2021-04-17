@@ -1,5 +1,16 @@
 # @backstage/plugin-techdocs
 
+## 0.7.3
+
+### Patch Changes
+
+- e292e393f: Add a test id to the shadow root element of the Reader to access it easily in e2e tests
+- Updated dependencies [99fbef232]
+- Updated dependencies [ab07d77f6]
+- Updated dependencies [937ed39ce]
+- Updated dependencies [9a9e7a42f]
+  - @backstage/core@0.7.6
+
 ## 0.7.2
 
 ### Patch Changes
