@@ -3,7 +3,7 @@ entries:
   backstage:
   - apiVersion: v2
     appVersion: v0.1.1-alpha.23
-    created: "2021-04-20T08:38:22.843577+10:00"
+    created: "2021-04-20T08:39:11.519885+10:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -28,14 +28,14 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: v0.1.1-alpha.23
-    created: "2021-04-20T08:38:22.839472+10:00"
+    created: "2021-04-20T08:39:11.515534+10:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 9.4.1
     description: A Helm chart for Backstage
-    digest: 17a569e8338d1f1938ec56ee0ff87dc399751b71c08e754f8d48f7ab47bdc4bd
+    digest: 1cc891fa4f16629eb1eb7ab72f812801e60809a4ed27cc14a0b002f9478ccbb2
     maintainers:
     - email: martina@roadie.io
       name: Martina Iglesias Fernández
@@ -51,29 +51,4 @@ entries:
     urls:
     - backstage-0.1.1-1.tgz
     version: 0.1.1-1
-  - apiVersion: v2
-    appVersion: v0.1.1-alpha.23
-    created: "2021-04-20T08:38:22.84687+10:00"
-    dependencies:
-    - condition: postgresql.enabled
-      name: postgresql
-      repository: https://charts.bitnami.com/bitnami
-      version: 9.4.1
-    description: A Helm chart for Backstage
-    digest: 4727a25baba667bbe66a3c5087bae2a66a9f1bd2a6d1c6f70bb50fc35852ec2c
-    maintainers:
-    - email: martina@roadie.io
-      name: Martina Iglesias Fernández
-      url: https://roadie.io
-    - email: david@roadie.io
-      name: David Tuite
-      url: https://roadie.io
-    name: backstage
-    sources:
-    - https://github.com/backstage/backstage
-    - https://github.com/spotify/lighthouse-audit-service
-    type: application
-    urls:
-    - backstage-0.1.1_1.tgz
-    version: 0.1.1_1
-generated: "2021-04-20T08:38:22.835282+10:00"
+generated: "2021-04-20T08:39:11.511325+10:00"
