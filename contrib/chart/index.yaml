@@ -3,7 +3,7 @@ entries:
   backstage:
   - apiVersion: v2
     appVersion: v0.1.1-alpha.23
-    created: "2021-04-19T12:55:21.554332+10:00"
+    created: "2021-04-19T13:04:16.391502+10:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -24,6 +24,6 @@ entries:
     - https://github.com/spotify/lighthouse-audit-service
     type: application
     urls:
-    - backstage/
+    - backstage-0.1.1.tgz
     version: 0.1.1
-generated: "2021-04-19T12:55:21.547983+10:00"
+generated: "2021-04-19T13:04:16.38683+10:00"
