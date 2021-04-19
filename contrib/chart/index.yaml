@@ -3,7 +3,7 @@ entries:
   backstage:
   - apiVersion: v2
     appVersion: v0.1.1-alpha.23
-    created: "2021-04-20T08:20:10.765996+10:00"
+    created: "2021-04-20T08:30:33.92917+10:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -28,14 +28,14 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: v0.1.1-alpha.23
-    created: "2021-04-20T08:20:10.77056+10:00"
+    created: "2021-04-20T08:30:33.932581+10:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 9.4.1
     description: A Helm chart for Backstage
-    digest: d8d2733c8b038ec1f10ed89cb56f18424dcdde3247ebd688a72ffd48e978a9bb
+    digest: 4727a25baba667bbe66a3c5087bae2a66a9f1bd2a6d1c6f70bb50fc35852ec2c
     maintainers:
     - email: martina@roadie.io
       name: Martina Iglesias Fernández
@@ -51,4 +51,4 @@ entries:
     urls:
     - backstage-0.1.1_1.tgz
     version: 0.1.1_1
-generated: "2021-04-20T08:20:10.760367+10:00"
+generated: "2021-04-20T08:30:33.924022+10:00"
