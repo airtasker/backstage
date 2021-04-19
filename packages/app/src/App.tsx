@@ -56,6 +56,7 @@ import { Root } from './components/Root';
 import { entityPage } from './components/catalog/EntityPage';
 import { providers } from './identityProviders';
 import * as plugins from './plugins';
+import { getTechRadarData } from './airtaskerTechRadarData'
 
 const app = createApp({
   apis,
@@ -111,7 +112,7 @@ const routes = (
     <Route path="/explore" element={<ExplorePage />} />
     <Route
       path="/tech-radar"
-      element={<TechRadarPage width={1500} height={800} />}
+      element={<TechRadarPage width={1500} height={800} getData={getTechRadarData}/>}
     />
     <Route path="/graphiql" element={<GraphiQLPage />} />
     <Route path="/lighthouse" element={<LighthousePage />} />
