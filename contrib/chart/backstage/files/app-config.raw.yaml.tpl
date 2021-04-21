@@ -13,6 +13,7 @@ backend:
         rejectUnauthorized: {{ .Values.appConfig.backend.database.connection.ssl.rejectUnauthorized | quote }}
         ca: {{ include "backstage.backend.postgresCaFilename" . | quote }}
   reading:
-    allow: {{ toYaml .Values.appConfig.backend.reading.allow }}
+    allow: 
+{{ toYaml .Values.appConfig.backend.reading.allow | indent 6 }}
 
 {{ toYaml .Values.appConfig.raw.config }}
