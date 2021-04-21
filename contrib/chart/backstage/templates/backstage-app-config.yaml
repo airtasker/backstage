@@ -4,7 +4,11 @@ metadata:
   name: {{ include "backstage.fullname" . }}-app-config
 data:
 {{ include "backstage.appConfigFilename" . | indent 2 }}: |
+{{- if .Values.appConfig.raw.override }}
+{{ tpl (.Files.Get "files/app-config.raw.yaml.tpl") . | indent 4 }}
+{{- else }}
 {{ tpl (.Files.Get "files/app-config.development.yaml.tpl") . | indent 4 }}
+{{- end }}
 ---
 apiVersion: v1
 kind: ConfigMap

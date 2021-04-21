@@ -1,7 +1,6 @@
 # Default values for backstage.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-
 frontend:
   enabled: true
   replicaCount: 1
@@ -84,11 +83,17 @@ postgresql:
   initdbScriptsSecret: backstage-postgresql-initdb
 
 appConfig:
+  raw:
+    # This is a custom config blob added to allow us to render raw config values in app-config.yaml
+    override: false # Set this to true in order to use the raw.config inplace of the example app-config.development.yaml.tpl file.
+    config: {}
   app:
     baseUrl: https://demo.example.com
     title: Backstage
     googleAnalyticsTrackingId:
   backend:
+    reading:
+      allow: []
     baseUrl: https://demo.example.com
     listen:
       port: 7000
