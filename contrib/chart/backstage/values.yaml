@@ -92,6 +92,8 @@ appConfig:
     title: Backstage
     googleAnalyticsTrackingId:
   backend:
+    reading:
+      allow: []
     baseUrl: https://demo.example.com
     listen:
       port: 7000
